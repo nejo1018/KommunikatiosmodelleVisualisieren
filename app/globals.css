@@ -1,0 +1,321 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Allgemeiner Aufbau */
+
+.master {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header */
+
+.header {
+    background-color: #f2ebe9;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.centerContainer{
+    margin-right: 450px;
+}
+
+/* .leftContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .centerContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  } */
+  
+
+.ChoiceAlertdiv {
+    margin-left: 20px;
+}
+
+.headerText {
+    /* margin-left: 550px; */
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.barLeft {
+    /* background-color: lightblue; */
+    background-color: #eddcd9;
+    flex-grow: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    /* padding: 20px; */
+    position: relative;
+    /* width: 100vw; */
+    /*  height: 100vh; */
+    /*  */
+    flex-direction: column;
+}
+
+.mainLegend {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex: 1;
+    border-top: 2px solid black;
+}
+
+#legendP2P {
+    margin-top: 15px;
+}
+
+#legendPubSub {
+    margin-top: 15px;
+}
+
+
+.legendDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 450px;
+}
+
+.legendItem {
+    margin: 0 10px;
+}
+
+.LegendeHeader {
+    margin-left: 840px;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    margin-top: 15px
+}
+
+
+.mainContent {
+    flex: 9;
+    margin-top: 20px;
+}
+
+.footer {
+    /* background-color: lightseagreen; */
+    background-color: #f2ebe9;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Bar Left */
+
+.InfoIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+#AddKomp {
+    /* text-decoration: underline; */
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.barLeftExten {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+
+/* Kapazitätsplanung */
+
+.addKapa {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.addKapaIcondiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#addKapaIcon {
+    margin-left: 10px;
+}
+
+.removeKapaIcondiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#removeKapaIcon {
+    margin-left: 20px
+}
+
+.checkKapaIcondiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+#addKapaTex {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+
+.display {
+    display: flex;
+    flex-direction: row;
+}
+
+.displayText {
+    margin-top: 20px;
+    margin-right: 30px;
+    /* border-left: 2px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Versandberechnung */
+
+.addVersand {
+    margin-top: 20px;
+    display: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addVersandIcondiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.removeVersandIcondiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.removeVersandIcondiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#removeVersandIcon {
+    margin-left: 20px;
+}
+
+.checkVersandIcondiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#addVersandIcon {
+    margin-left: 10px
+}
+
+
+#P2P_Arch {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.divRadioModell {
+    margin-bottom: 35px;
+}
+
+
+.Beschriftung {
+    font-size: small;
+}
+
+
+
+
+
+/* MUI */
+
+.ChoiceAlertdiv {
+    margin-left: 20px;
+}
+
+.headerText {
+    margin-left: 50px;
+}
+
+
+.slider1div {
+    margin-top: 30px;
+}
+
+#sliderPaketep {
+    color: '#000000';
+    font-size: '1.2rem';
+}
+
+.divButtonPakete {
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+#slider1 {
+    margin-top: 10px;
+}
+
+
+.Checkobox1 {
+    margin-top: 40px;
+}
+
+#KapaInfo {
+    position: absolute;
+    top: 618px;
+    left: -63px;
+}
